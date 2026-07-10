@@ -1,0 +1,14 @@
+# Create venv
+python -m venv .venv
+
+# Activate (Linux/Mac)
+source .venv/bin/activate
+
+# Activate (Windows)
+source .venv\Scripts\activate
+
+
+
+
+#figsize for subplots
+fig,ax = plt.subplots(1,2, figsize=(14,5))
